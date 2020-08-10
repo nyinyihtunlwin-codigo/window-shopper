@@ -25,9 +25,12 @@
                                     <constraint firstAttribute="width" constant="60" id="ubR-Ui-drr"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1bM-gp-NLT" customClass="CustomTextField" customModule="window_shopper" customModuleProvider="target">
-                                <rect key="frame" x="76" y="177" width="213" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your hourly wage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1bM-gp-NLT" customClass="CustomTextField" customModule="window_shopper" customModuleProvider="target">
+                                <rect key="frame" x="77.5" y="168" width="220" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="TyH-SH-UH7"/>
+                                    <constraint firstAttribute="width" constant="220" id="kZO-39-h4V"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -37,8 +40,10 @@
                             <constraint firstItem="z5M-9X-gvf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2e7-qb-4kT"/>
                             <constraint firstItem="z5M-9X-gvf" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="67g-Gk-gdp"/>
                             <constraint firstItem="G0E-RV-PR0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="48" id="9cb-sI-6ry"/>
+                            <constraint firstItem="1bM-gp-NLT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fgm-NT-BpG"/>
                             <constraint firstItem="z5M-9X-gvf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="QXm-8j-W2b"/>
                             <constraint firstItem="z5M-9X-gvf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="e1V-f8-KmS"/>
+                            <constraint firstItem="1bM-gp-NLT" firstAttribute="top" secondItem="G0E-RV-PR0" secondAttribute="bottom" constant="60" id="tRT-Xc-pHO"/>
                             <constraint firstItem="G0E-RV-PR0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uQU-g1-Xnv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
